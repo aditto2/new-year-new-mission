@@ -1,0 +1,39 @@
+* {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    /* font-style: normal; */
+}
+
+
+
+/* heading section */
+
+
+
+.header {
+    text-align: center;
+    color: #FFFF;
+    background-image: url("../resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 280px;
+    margin: 30px 70px;
+    background-size: 1220px;
+}
+
+
+
+.header {
+    background-color: black;
+    opacity: 50%;
+}
+
+.title-1 {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.title-2 {
+    font-weight: 600;
+    font-size: 72px;
+}
