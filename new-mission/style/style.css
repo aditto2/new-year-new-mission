@@ -12,28 +12,63 @@
 
 .header {
     text-align: center;
-    color: #FFFF;
+    color: #f50b0b;
     background-image: url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 150px 280px;
-    margin: 30px 70px;
+    margin: 50px 100px;
     background-size: 1220px;
+
 }
 
 
 
-.header {
+/* .header {
     background-color: black;
     opacity: 50%;
-}
+} */
 
 .title-1 {
     font-weight: 400;
     font-size: 32px;
 }
 
+
 .title-2 {
     font-weight: 600;
     font-size: 72px;
+}
+
+
+
+/* off-section */
+
+.off {
+    align-items: center;
+    text-align: center;
+}
+
+.off-title1 {
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 106px;
+    color: #FF0000;
+}
+
+.off-paragraph {
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+}
+
+.off-title2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #070211;
+
+}
+
+.off img{
+    width: 600px;
 }
