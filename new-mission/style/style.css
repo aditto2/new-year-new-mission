@@ -69,6 +69,54 @@
 
 }
 
-.off img{
+.off img {
     width: 600px;
+}
+
+/* midnight-section */
+
+.midnight {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 100px;
+    padding: 20px 50px 50px 80px;
+    margin: 100px 135px;
+    background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;
+}
+
+.midnight-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.midnight-paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-midnight {
+    padding: 10px 27px;
+    background-color: #070211;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-midnight:hover{
+    background-color: white;
+    color: black;
+}
+
+.midnight img {
+    width: 300px;
+    height: 400px;
 }
