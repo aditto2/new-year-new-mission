@@ -12,7 +12,7 @@
 
 .header {
     text-align: center;
-    color: #f50b0b;
+    color: #FFFFFF;
     background-image: url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -111,7 +111,7 @@
     cursor: pointer;
 }
 
-.btn-midnight:hover{
+.btn-midnight:hover {
     background-color: white;
     color: black;
 }
@@ -119,4 +119,39 @@
 .midnight img {
     width: 300px;
     height: 400px;
+}
+
+/* location-section */
+
+.location {
+    align-items: center;
+    text-align: center;
+    padding: 60px 300px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+    margin: 0px 120px 150px ;
+}
+
+.location span {
+    color: #FF0000;
+}
+
+.location-para {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.btn-location {
+    padding: 10px 27px;
+    background-color: #FF0000;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-location:hover {
+    background-color: pink;
+    color: black;
 }
