@@ -241,13 +241,13 @@
     color: rgba(7, 2, 17, 0.6);
 }
 
-.img-holiday{
+.img-holiday {
     display: flex;
     flex-direction: row-reverse;
-    padding: 50px 140px ;
+    padding: 50px 140px;
 }
 
-.img-discount1{
+.img-discount1 {
     width: 400px;
     background-image: url("../resources/Rectangle\ 2.png");
     background-repeat: repeat-x;
@@ -256,15 +256,47 @@
 
 }
 
-.img-holiday-discount{
+.img-holiday-discount {
     display: flex;
 }
 
-.img-discount2{
+.img-discount2 {
     width: 150px;
-    
+
 }
 
-.img-discount3{
+.img-discount3 {
     width: 300px;
+}
+
+/* portfolio-section */
+
+.portfolio {
+    padding: 120px 100px;
+    align-items: center;
+}
+
+.portfolio-title1 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF0000;
+}
+
+.portfolio-title2 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #070211;
+}
+
+.portfolio-paragraph {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    padding-bottom: 20px;
+}
+
+
+.img-portfolio img {
+    width: 300px;
+    padding: 20px;
 }
