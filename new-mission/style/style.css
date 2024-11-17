@@ -210,13 +210,17 @@
 
 /* holiday-section */
 
+.holiday-sales {
+    margin: 50px 100px;
+}
+
 .holiday {
     text-align: center;
     padding: 100px 200px 50px;
 }
 
 .holiday-title {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 14px;
     color: #070211;
 }
@@ -237,3 +241,30 @@
     color: rgba(7, 2, 17, 0.6);
 }
 
+.img-holiday{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px 140px ;
+}
+
+.img-discount1{
+    width: 400px;
+    background-image: url("../resources/Rectangle\ 2.png");
+    background-repeat: repeat-x;
+    background-position: right bottom;
+    background-size: 500px;
+
+}
+
+.img-holiday-discount{
+    display: flex;
+}
+
+.img-discount2{
+    width: 150px;
+    
+}
+
+.img-discount3{
+    width: 300px;
+}
