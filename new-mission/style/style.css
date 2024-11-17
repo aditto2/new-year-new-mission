@@ -207,3 +207,33 @@
 .twinty-four img {
     width: 80px;
 }
+
+/* holiday-section */
+
+.holiday {
+    text-align: center;
+    padding: 100px 200px 50px;
+}
+
+.holiday-title {
+    font-weight: 500;
+    font-size: 14px;
+    color: #070211;
+}
+
+.holiday-title2 span {
+    color: #FF0000;
+}
+
+.holiday-title2 {
+    font-weight: 900;
+    font-size: 52px;
+    color: #070211;
+}
+
+.holiday-paragraph {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
