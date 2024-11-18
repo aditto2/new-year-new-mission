@@ -305,7 +305,7 @@
 
 .subscribe {
     align-items: center;
-    text-align: center ;
+    text-align: center;
     background-color: rgba(255, 0, 0, 0.05);
     padding: 80px 100px;
     margin: 120px 140px;
@@ -340,4 +340,49 @@
     border: 0;
     border-radius: 2px 20px 20px 3px;
     color: #FFFFFF;
+}
+
+/* footer-section  */
+
+footer {
+    background-color: #070211;
+    color: #FFFFFF;
+    padding: 120px 140px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.footer-banner1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-banner1 img {
+    width: 20px;
+    /* height: 20px; */
+}
+
+.img-footer1,
+.img-footer2 {
+    display: flex;
+    align-items: center;
+}
+
+.footer-banner2 img {
+    width: 50px;
+}
+
+.footer-banner2 {
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.footer-banner3 {
+    color: #FFFFFF;
+    justify-content: space-between;
+    display: flex;
 }
